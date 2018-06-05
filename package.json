@@ -1,0 +1,23 @@
+{
+  "name": "randeats-server",
+  "version": "1.0.0",
+  "description": "Node.js server for random eats application.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewlarry/randeats-server.git"
+  },
+  "author": "Andrew Fuselier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewlarry/randeats-server/issues"
+  },
+  "homepage": "https://github.com/andrewlarry/randeats-server#readme"
+}
