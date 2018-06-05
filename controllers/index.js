@@ -1,6 +1,5 @@
 /**
- * Defines the app routes and logic. Your controllers will
- * handle web requests, serve templates, and interact with
+ * Defines the app routes and logic. Your controllers will andle web requests, serve templates, and interact with
  * the models.
  */
 
@@ -19,6 +18,11 @@ router.get('/', (req, res) => {
 
 // Login attempt
 router.post('/', auth, (req, res) => {
+  console.log(req.body);
+});
+
+// Signup attempt
+router.post('/signup', (req, res) => {
 
 });
 
